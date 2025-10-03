@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ChevronDown } from 'lucide-react';
 import { assets } from "../assets/assets";
-
+import { Menu } from 'lucide-react';
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
@@ -46,7 +46,7 @@ const Navbar = () => {
           className="md:hidden text-gray-700 text-2xl"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
-          ☰
+           <Menu />
         </button>
       </div>
 

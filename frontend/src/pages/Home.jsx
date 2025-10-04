@@ -25,10 +25,10 @@ const Home = () => {
 
           {/* Buttons */}
           <div className="flex space-x-4">
-            <button className="px-6  bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow">
+            <button className="px-6 text-sm font-medium bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow">
               Explore Courses
             </button>
-            <button className="flex items-center px-6 py-3 bg-white text-blue-600  rounded-lg shadow hover:bg-gray-100">
+            <button className="flex text-sm font-medium items-center px-6 py-3 bg-white text-blue-600  rounded-lg shadow hover:bg-gray-100">
               <img src={assets.Watch_icon} alt="Watch" className='h-4 mx-2' />  Watch Demo
             </button>
           </div>
